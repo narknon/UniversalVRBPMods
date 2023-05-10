@@ -126,6 +126,8 @@
 !/Plugins/**/Binaries/Win64/*
 *.pdb
 
+# Include content
+!/Content/**
 
 !USMAP/*
 
@@ -137,10 +139,6 @@ obj/
 /Saved/*
 !/Saved/Logs
 !/Saved/Logs/keep.txt
-
-!/Content/Csv/.gitkeep
-!/Content/Tweaks/.gitkeep
-!/Content/WwiseAudio/Windows/.gitkeep
 
 
 /Engine/Programs/UnrealBuildTool/**
@@ -155,13 +153,4 @@ WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.tps
 WindowsNoEditor/Manifest_DebugFiles_Win64.txt
 
 
-# Include master materials and dependencies
-Binaries/Win64/SwGame-Win64-Shipping.target
-Binaries/Win64/SwGame-Win64-Shipping.lib
-Binaries/Win64/SwGame-Win64-Shipping.exp
-Binaries/Win64/SwGame-Win64-Shipping.exe
-Binaries/Win64/turbojpeg.dll
-Binaries/Win64/SwGame.target
-Binaries/Win64/SwGame.lib
-Binaries/Win64/SwGame.exp
-Binaries/Win64/SwGame.exe
+
